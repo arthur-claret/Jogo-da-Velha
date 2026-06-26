@@ -62,62 +62,30 @@ int main()
 
         aux = getch();
 
-            // --- Teclado cima/baixo/esq/dir ---
-                if(aux == 'w'){
-                    if (linha>0){
-                    linha--; 
-                        if(teste[linha][coluna] != ' ')
-                        {
-                            linha++;
-                            if (teste[linha-2][coluna] == ' '){
-                            linha--;
-                            linha--;
-                            }
-                        }
-                    }
+        // --- Teclado cima/baixo/esq/dir ---
+            if(aux == 'w'){
+                if (linha>0){
+                   linha--; 
                 }
-                
-                if(aux == 'a'){
-                    if (coluna>0){
-                    coluna--; 
-                        if(teste[linha][coluna] != ' ')
-                        {
-                            coluna++;
-                            if (teste[linha][coluna-2] == ' '){
-                            coluna--;
-                            coluna--;
-                            }
-                        }
-                    }
+            }
+            
+            if(aux == 'a'){
+                if (coluna>0){
+                   coluna--; 
                 }
+            }
 
-                if(aux == 's'){
-                    if (linha<2){
-                    linha++;
-                        if(teste[linha][coluna] != ' ')
-                        {
-                            linha--;
-                            if (teste[linha+2][coluna] == ' '){
-                            linha++;
-                            linha++;
-                            }
-                        }
-                    }
+            if(aux == 's'){
+                if (linha<2){
+                   linha++;
                 }
-                
-                if(aux == 'd'){
-                    if (coluna<2){
-                    coluna++; 
-                        if(teste[linha][coluna] != ' ')
-                        {
-                            coluna--;
-                            if (teste[linha][coluna+2] == ' '){
-                            coluna++;
-                            coluna++;
-                            }
-                        }
-                    }
+            }
+            
+            if(aux == 'd'){
+                if (coluna<2){
+                   coluna++; 
                 }
+            }
         //---------------------------------
 
         // --- Seleção do X ou O ---
