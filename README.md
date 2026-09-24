@@ -1,7 +1,7 @@
 # ❌⭕ Jogo da Velha em C
 
 ![C](https://img.shields.io/badge/language-C-blue.svg)
-![Status](https://img.shields.io/badge/status-hobby-orange.svg)
+![Status](https://img.shields.io/badge/status-em%20andamento-yellow.svg).
 
 ## Sobre o projeto
 
